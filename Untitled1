@@ -81,15 +81,19 @@ document.write(results);
 */
 
 
-//рішення квадратного рівняння
+
+
+
+//discriminant
+/*
 var a = Number(prompt('Input first number'));
 var b = Number(prompt('Input second number'));
 var c = Number(prompt('Input third number'));
-var x1 = (-b - Math.sqrt(b * b - 4 * a * c)) / (2 * a);
-var x2 = (-b + Math.sqrt(b * b - 4 * a * c))/ (2 * a);
-var textx1 = 'Your x1:';
-var textx2 = '___Your x2:';
-var result = textx1 + x1;
-var results = textx2 + x2;
+var disk = Math.sqrt(b * b - 4 * a * c);
+var result = disk;
 document.write(result);
-document.write(results);
+*/
+
+//var sum = (-24 + Math.sqrt(24 * 24 - 4 * -2 * -64)) / (2 * -2);
+//var result = sum;
+//document.write(result)//
